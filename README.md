@@ -1,2 +1,3 @@
 # git-practice
-練習git跟上傳製作好的網頁
+跟著Udemy線上課程學習的網頁
+使用的技術 HTML,CSS,jQuery動畫,RWD,優化網頁速度.
