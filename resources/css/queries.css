@@ -1,0 +1,165 @@
+
+
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%;}
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 43.8%;
+    }
+    h1 {
+        letter-spacing: none;
+    }
+    section {
+        padding: 60px 0;
+    }
+     
+    .hero-text-box { 
+        width: 100%;
+    }
+    .main-nav {
+        margin: 28px;
+    }
+    .main-nav li {
+        margin-left: 20px;
+    }
+    .footer-nav li + li{
+        border: none;
+    }
+    .works-step p {
+        font-size: 1.9rem;
+    }
+    .btn-app img {
+        margin-right: 8px;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    .works-step {
+        margin-bottom: 70px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    
+    .box h3 {font-size: 2rem;}
+    .ion-small {
+        width: 18px;
+    }
+    .city-feature {
+        font-size: 1.7rem;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price {
+        font-size: 5rem;
+    }
+    .plan-price span {
+    font-size: 1.8rem;
+    font-weight: 300;
+    }
+    .contact-form {
+    width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {font-size: 40%;}
+    section {padding: 30px 0;}
+    h1 {font-size: 3.4rem;}
+    h2 {font-size: 2.8rem;}
+    .row,
+    .hero-text-box {padding: 0 4%;}
+
+    .col {
+        width: 100%;
+        margin: 0% 0 4% 0;
+    }
+    .main-nav {display: none;}
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+    }
+    .sticty .main-nav {margin: 12px 0;}
+
+    .sticty .main-nav li a:link, 
+    .sticty .main-nav li a:visited {padding: 8px 0;}
+    .sticty .mobile-nav-icon ion-icon {color: #555;}
+    .sticty .mobile-nav-icon {margin-top: 10px;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .app-screen {
+        width: 40%;
+    }
+    .steps-box:first-child {text-align: center;}
+    .steps-box:last-child {text-align: center;}
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 13px;
+        padding: 5px;
+        font-size: 2.2rem;
+    }
+    .works-step {
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 30px;
+    }
+    .works-step p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    section {padding: 25px 0;}
+    .contact-form {width: 100%;}
+    .logo {
+        margin: 10px;
+    }
+    .main-nav {
+        margin: 16px;
+    }
+}
